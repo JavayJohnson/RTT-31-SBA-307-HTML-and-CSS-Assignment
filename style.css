@@ -69,10 +69,40 @@ h1 {
 
 /* Dropdown menu books */
 
-<title> Menu with Images</title>
-        .dropdown-menu img {
+.title Menu with Images 
+.dropdown-menu img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
 
-            width: 150px; /* Set a fixed width */
-            height: 150px; /* Set a fixed height */
-            object-fit: cover; /* Ensures images maintain aspect ratio */
-        }
+
+/* Social media follow */
+
+/* .socialcontainer {
+    border:5px solid hotpink;
+    margin:1em;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content:space-around;
+   
+} */
+
+#LinkedIn, #TheEmpowermentCodes, #GitHub {
+    width:80%; 
+    height: 80%;    
+} */
+
+.socialcontainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.nav1 {
+    text-align: center;
+}
+.Social {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

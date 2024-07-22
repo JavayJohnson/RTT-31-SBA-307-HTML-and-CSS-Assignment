@@ -2,7 +2,6 @@
     text-align: center;
 }
 
-
 .container {
     display: flex;
     height: 100vh; 
@@ -19,7 +18,7 @@
     box-sizing: border-box; 
     padding: 20px; 
     border: 5px solid; 
-    height: 100vh; 
+    /* height: auto;  */
 }
 
 .Parent1 {
@@ -28,6 +27,9 @@
 
 .Parent2 {
     border-color: orangered; 
+    margin: 100px;
+    padding:20;
+
 }
 
 
@@ -60,15 +62,15 @@ h1 {
     font-weight: bold;
 }
 
-/* Dropdown menu books */
+/* Dropdown button */
 
 /* .dropdown-menu img {
     width: 150px; 
     height: 150px; 
     object-fit: cover; 
-} */
+}
 
-/* Books Displayed */
+
 /* books and containers */
 
 /* .companyContainer {
@@ -94,7 +96,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* Adjust as needed for larger screens */
+    max-width: 1200px; 
     box-sizing: border-box;
 }
 
@@ -103,8 +105,8 @@ h1 {
     font-size: 22px;
     border: 1px solid rgb(128, 128, 128);
     margin: 20px;
-    width: 100%; /* Full width for each container */
-    max-width: 400px; /* Set a max width for larger screens */
+    width: 100%; 
+    max-width: 400px; 
     padding: 20px;
     background-color:#080808;
     color: white;
@@ -115,17 +117,13 @@ h1 {
 }
 
 .company img {
-    width: 100%; /* Make the image responsive */
-    max-width: 400px; /* Ensure the image fits within the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
     object-fit: cover;
 }
 
-
-
 /* Social media follow */
-
-
 #LinkedIn, #TheEmpowermentCodes, #GitHub {
     width:80%; 
     height: 80%;    

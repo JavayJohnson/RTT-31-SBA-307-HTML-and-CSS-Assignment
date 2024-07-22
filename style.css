@@ -1,78 +1,33 @@
-/* .centered-text {
-
+.centered-text {
     text-align: center;
+}
 
-} */
+/* Parent container holding both columns */
+.container {
+    display: flex;
+    height: 100vh; /* Ensures the container takes the full viewport height */
+    gap: 20px; /* Optional: Adds space between columns */
+    padding: 20px; /* Optional: Adds padding around the container */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    
+}
 
-/* .Parent1 {
-    display:flex;
-    flex-direction:column;
-    flex: 1;
-    border: 5px solid green;
-    Padding:20px
-    
-    }
-    
-    .Parent2 {
-    border: 5px solid orangered;
-    display:flex;
-    flex-direction:column;
-    } */
+/* Individual columns */
+.Parent1, .Parent2 {
+    flex: 1; /* Ensures both columns have equal width */
+    display: flex;
+    flex-direction: column; /* Ensures content inside columns are stacked vertically */
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
+    padding: 20px; /* Optional: Adds padding inside each column */
+    border: 5px solid; /* Adds border to both columns */
+    height: 100vh; /* Ensures the columns take the full height of the parent container */
+}
 
+.Parent1 {
+    border-color: green; /* Green border for Parent1 */
+}
 
-    
-    .child1{
-        display: flex; /* Aligns child elements side by side */
-        height: 100vh; /* Ensures the container takes the full viewport height */
-        padding: 20px; /* Optional: Adds padding around the container */
-        gap: 20px; /* Optional: Adds space between columns */
-        box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-        flex-direction: column;
-    }
-    
-    .Parent1 {
-        display: flex;
-        flex-direction: column;
-        flex: 1; /* Ensures both columns have equal width */
-        box-sizing: border-box; /* Ensures padding and border are included in width and height */
-        padding: 20px; /* Optional: Adds padding inside each column */
-        border: 5px solid; /* Adds border to both columns, can specify colors separately */
-        height: 1200px;
-        width: 1000px;
+.Parent2 {
+    border-color: orangered; /* Orange-red border for Parent2 */
+}
 
-    }
-    
-    .Parent2 {
-        display:flex
-        flex-direction: column-reverse;
-        flex: 1; /* Ensures both columns have equal width */
-         /* Ensures padding and border are included in width and height */
-         /* Optional: Adds padding inside each column */
-        border: 5px solid; /* Adds border to both columns, can specify colors separately */
-        width: 993px
-    }
-
-    .Parent1 {
-        border-color: green; /* Green border for Parent1 */
-    }
-    
-    .Parent2 {
-        border-color: orangered; /* Orange-red border for Parent2 */
-    }
-
-    
-    /* .Parent1, .Parent2 {
-        display: flex;
-        flex-direction: column;
-        flex: 1; /* Ensures both columns have equal width */
-        /* box-sizing: border-box; /* Ensures padding and border are included in width and height */
-        /* padding: 20px; Optional: Adds padding inside each column */
-    
-    
-    /* .Parent1 {
-        border: 5px solid green;
-    } */
-    
-    /* .Parent2 {
-        border: 5px solid orangered;
-    } */

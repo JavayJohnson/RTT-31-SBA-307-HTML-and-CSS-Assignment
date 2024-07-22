@@ -31,3 +31,48 @@
     border-color: orangered; /* Orange-red border for Parent2 */
 }
 
+
+
+
+
+
+
+/* Table products */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+td img {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+h1 {
+    margin: 0; /* Remove default margin for headers */
+}
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+/* Dropdown menu books */
+
+<title> Menu with Images</title>
+        .dropdown-menu img {
+
+            width: 150px; /* Set a fixed width */
+            height: 150px; /* Set a fixed height */
+            object-fit: cover; /* Ensures images maintain aspect ratio */
+        }

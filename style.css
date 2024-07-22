@@ -2,38 +2,33 @@
     text-align: center;
 }
 
-/* Parent container holding both columns */
+
 .container {
     display: flex;
-    height: 100vh; /* Ensures the container takes the full viewport height */
-    gap: 20px; /* Optional: Adds space between columns */
-    padding: 20px; /* Optional: Adds padding around the container */
-    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-    
+    height: 100vh; 
+    gap: 20px; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 /* Individual columns */
 .Parent1, .Parent2 {
-    flex: 1; /* Ensures both columns have equal width */
+    flex: 1; 
     display: flex;
-    flex-direction: column; /* Ensures content inside columns are stacked vertically */
-    box-sizing: border-box; /* Ensures padding and border are included in width and height */
-    padding: 20px; /* Optional: Adds padding inside each column */
-    border: 5px solid; /* Adds border to both columns */
-    height: 100vh; /* Ensures the columns take the full height of the parent container */
+    flex-direction: column; 
+    box-sizing: border-box; 
+    padding: 20px; 
+    border: 5px solid; 
+    height: 100vh; 
 }
 
 .Parent1 {
-    border-color: green; /* Green border for Parent1 */
+    border-color: green; 
 }
 
 .Parent2 {
-    border-color: orangered; /* Orange-red border for Parent2 */
+    border-color: orangered; 
 }
-
-
-
-
 
 
 
@@ -53,40 +48,28 @@ th {
     background-color: #f2f2f2;
 }
 td img {
-    width: 150px; /* Set a fixed width */
-    height: 150px; /* Set a fixed height */
-    object-fit: cover; /* Ensures images maintain aspect ratio */
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
 }
 h1 {
-    margin: 0; /* Remove default margin for headers */
+    margin: 0; 
 }
 .price {
     font-size: 1.5em;
     font-weight: bold;
 }
 
-
-
 /* Dropdown menu books */
 
-.title Menu with Images 
 .dropdown-menu img {
-    width: 150px; /* Set a fixed width */
-    height: 150px; /* Set a fixed height */
-    object-fit: cover; /* Ensures images maintain aspect ratio */
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
 }
-
 
 /* Social media follow */
 
-/* .socialcontainer {
-    border:5px solid hotpink;
-    margin:1em;
-    display: flex;
-    /* flex-direction: row; */
-    /* justify-content:space-around;
-   
-} */
 
 #LinkedIn, #TheEmpowermentCodes, #GitHub {
     width:80%; 
@@ -108,10 +91,7 @@ h1 {
 }
 
 
-
-
-/* 
-Registration Form */
+/* Registration Form */
 
 body {
     font-family: Arial, sans-serif;
@@ -168,9 +148,6 @@ body {
 .form-group button:hover {
     background-color: #0056b3;
 }
-
-
-
 
 
 /* Sign in form */

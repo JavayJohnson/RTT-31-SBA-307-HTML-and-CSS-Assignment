@@ -62,11 +62,66 @@ h1 {
 
 /* Dropdown menu books */
 
-.dropdown-menu img {
+/* .dropdown-menu img {
     width: 150px; 
     height: 150px; 
     object-fit: cover; 
+} */
+
+/* Books Displayed */
+/* books and containers */
+
+/* .companyContainer {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+} */
+
+ style {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed for larger screens */
+    box-sizing: border-box;
+}
+
+.company {
+    border-radius: 10px;
+    font-size: 22px;
+    border: 1px solid rgb(128, 128, 128);
+    margin: 20px;
+    width: 100%; /* Full width for each container */
+    max-width: 400px; /* Set a max width for larger screens */
+    padding: 20px;
+    background-color:#080808;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.company img {
+    width: 100%; /* Make the image responsive */
+    max-width: 400px; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
+
+
 
 /* Social media follow */
 
